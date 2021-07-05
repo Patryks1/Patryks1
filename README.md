@@ -1,5 +1,5 @@
 ### Hi there 👋
-![Metrics](https://github.com/Patryks1/Patryks1/blob/main/github-metrics.svg)
+[<img align="left" width="400" alt="🦑" src="https://github.com/Patryks1/Patryks1/blob/master/metrics.svg">](https://github.com/Patryks1/Patryks1)
 
 <!--
 **Patryks1/Patryks1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
