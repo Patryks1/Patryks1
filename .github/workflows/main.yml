@@ -21,5 +21,15 @@ jobs:
           plugin_languages_sections: most-used, recently-used           # Display most used and recently used languages stats
           plugin_languages_recent_load: 500                             # Load up to 500 events to compute recently used stats
           plugin_languages_recent_days: 7                               # Limit recently used stats to last week
+          
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          
+          plugin_contributors: yes
+          plugin_contributors_base: ""           # Base reference (commit, tag, branch, etc.)
+          plugin_contributors_head: master       # Head reference (commit, tag, branch, etc.)
+          plugin_contributors_ignored: bot       # Ignore "bot" user
+          plugin_contributors_contributions: yes # Display number of contributions for each contributor
+    
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
